@@ -1,0 +1,16 @@
+.calculator {
+  border: 1px solid black;
+}
+
+h1 {
+  text-align: center;
+}
+
+/*input {
+  width: 100%;
+}*/
+
+button {
+  margin: 10px;
+  width: 95px;
+}
