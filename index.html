@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+
+  <!-- jquery cdn -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.0/jquery.js" charset="utf-8"></script>
+
+  <!-- bootstrap cdn -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- My custom js -->
+  <script src="app.js"></script>
+
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <div class="container">
+    <div class="row col-lg-12">
+      <h1>Calculator</h1>
+      <div class="calculator">
+        <div class="container">
+          <div class="col-lg-2">
+            <label for="calculation">Number 1</label>
+            <br>
+            <input id="numberOne" type="number">
+          </div>
+          <div class="col-lg-2">
+            <label for="calculation">Number 2</label>
+            <br>
+            <input id="numberTwo" type="number">
+          </div>
+        </div>
+        <div class="row container">
+          <button id="add" class="btn btn-primary">ADD!(+)</button>
+          <button id="subs" class="btn btn-success">SUB!(-)</button>
+          <button id="mult" class="btn btn-info">MULT!(X)</button>
+          <button id="divide" class="btn btn-warning">DIV!(/)</button>
+          <button id="square" class="btn">X^2</button>
+        </div>
+        <div class="container">
+          <label for="answer">Answer</label>
+          <div id="answer">Wait for it...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
