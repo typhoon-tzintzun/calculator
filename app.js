@@ -7,7 +7,7 @@ $( document ).ready(function() {
 
       var sum = parseFloat(numberOne) + parseFloat(numberTwo);
 
-      $('#answer').html(sum);
+      $('#answer').html(numberOne + " + " + numberTwo + " = " + sum);
     });
 
     $('#subs').click(function() {
@@ -16,7 +16,7 @@ $( document ).ready(function() {
 
       var subs = parseFloat(numberOne) - parseFloat(numberTwo);
 
-      $('#answer').html(subs);
+      $('#answer').html(numberOne + " - " + numberTwo + " = " + subs);
     });
 
     $('#mult').click(function() {
@@ -25,7 +25,7 @@ $( document ).ready(function() {
 
       var mult = parseFloat(numberOne) * parseFloat(numberTwo);
 
-      $('#answer').html(mult);
+      $('#answer').html(numberOne + " x " + numberTwo + " = " + mult);
     });
 
     $('#divide').click(function() {
@@ -34,7 +34,7 @@ $( document ).ready(function() {
 
       var divide = parseFloat(numberOne) / parseFloat(numberTwo);
 
-      $('#answer').html(divide);
+      $('#answer').html(numberOne + " / " + numberTwo + " = " + divide);
     });
 
     $('#square').click(function() {
